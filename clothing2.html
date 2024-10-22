@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CLOTHING STORE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <h1>The Clothing Store</h1>
+        <p class="head2">The perfect vintage clothing store</p>
+        <img src="cart.jpg" class="cart">
+        <div id="search">
+            <form action="">
+            <input type="text" name="q" placeholder="search">
+            <button>search</button>
+        </div>
+        <p class="nav">Trending</p>
+        <p class="nav">Women</p>
+        <p class="nav">Men</p>
+        
+    <div id="all">
+  -     
+        
+        <div class="container">
+            <div class="box">
+                <div class="card">
+                    <img src="leather.jpg"/>
+                    <div class="desc">
+                        <h3>Leather Jacket</h3>
+                        <p>$25</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="shirt.jpg"/>
+                    <div class="desc">
+                        <h3>Old Style Shirt</h3>
+                        <p>$10</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="halfsweat.jpg"/>
+                    <div class="desc">
+                        <h3>Vintage Half Sweat</h3>
+                        <p>$15</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="jacket.jpg"/>
+                    <div class="desc">
+                        <h3>Denim Jacket</h3>
+                        <p>$30</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <img src="leatherjack.jpg"/>
+                    <div class="desc">
+                        <h3>Leather Jacket</h3>
+                        <p>$30</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="blazzer.jpg"/>
+                    <div class="desc">
+                        <h3>Blazer</h3>
+                        <p>$40</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="buckle.jpg"/>
+                    <div class="desc">
+                        <h3>Buckle Shirt</h3>
+                        <p>$10</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="coat.jpg"/>
+                    <div class="desc">
+                        <h3>Coat</h3>
+                        <p>$40</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <img src="looseshirt.jpg"/>
+                    <div class="desc">
+                        <h3>Baggy Shirt</h3>
+                        <p>$15</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="overcoat.jpg"/>
+                    <div class="desc">
+                        <h3>Overcoat</h3>
+                        <p>$45</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="shirt2.jpg"/>
+                    <div class="desc">
+                        <h3>Designer Shirt</h3>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sweater.jpg"/>
+                    <div class="desc">
+                        <h3>Sweater</h3>
+                        <p>$25</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="side">
+            <a class="side1">About Us</a>
+            <a class="side1">Services</a>
+            <a class="side1">Contact Us</a>
+            <a class="side1">Write a review</a>
+            <a class="side1">Know more about us</a>
+        </div>
+    </div>
+    <div id="last">
+        <p class="txt">Follow us on</p>
+        <img class="logo" src="insta.jpg" alt="instagram">
+        <img class="logo" src="fb.jpg" alt="facebook">
+        <img class="logo" src="wa.jpg" alt="whatsapp">
+        <img class="logo" src="x.jpg" alt="twitter">
+        
+    </div>
+ 
+</body>
+</html>
+<style>
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 83%;
+    margin: auto;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px black;
+    transform: scale(1.1);
+    transition-delay: 0.2s;
+}
+
+img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.desc {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFEAC5;
+    border-top: 1px solid black;
+    border-radius: 0 0 5px 5px;
+}
+
+.desc h3 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #6C4E31;
+}
+
+.desc p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #603F26;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFEAC5;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    margin-bottom: 20px;
+}
+
+.side {
+    width: 12%;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px BLACK;
+    background-color: #6C4E31;
+    color: #603F26;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    background-image: url(mainback1.jpg);
+    background-size: auto;
+}
+
+.head {
+    border: 2px solid black;
+    background-color: #FFDBB5;
+    color: #603F26;
+    border-radius: 10px;
+    box-shadow: 0 1.5px 4px white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merriweather';
+    background-image: url(mainback1.jpg);
+    background-size: auto;
+    
+    
+}
+
+
+#all {
+    display: flex;
+    background-color: #603F26;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(back.jpg);
+    background-size: auto;
+}
+
+#last{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(33, 33, 51);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+   align-items: center;
+   margin: 10px;
+}
+.txt{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+    margin-bottom: -5px;
+    font-family: 'Playfair Display', serif;
+}
+.end{
+    font-size: 10px;
+    color: aliceblue;
+    font-family:'Playfair Display', serif ;
+}
+.cart{
+    height: 60px;
+    width: 115px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 0 2px black;
+}
+.cart:hover{
+    box-shadow: 0 8px 16px black;
+    transform: scale(1.1);
+    transition-delay: 0.2s;
+
+}
+.nav{
+    display: inline;
+    margin: 8px;
+    padding-bottom: 10px;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+#search{
+    position: absolute;
+    right: 30px;
+    top: 135px;
+}
+
+     
+</style>
